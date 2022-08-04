@@ -46,6 +46,6 @@ for(int i = 0;i < fields.Count;i++)
   Console.WriteLine($"字段{i}的名字为{fields[i]}");
 ```
 运行代码可以看到如下输出    
-> 字段1的名字为id
->> 字段2的名字为name
->>> 字段3的名字为time
+> 字段1的名字为id   
+> 字段2的名字为name   
+> 字段3的名字为time
