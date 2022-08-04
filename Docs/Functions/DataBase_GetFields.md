@@ -9,5 +9,5 @@ public List<string> GetFields(string table)
 `table`  string    
 数据表名称   
 ## 返回
-`List/<string>`
+`List<string>`
 字段名列表
