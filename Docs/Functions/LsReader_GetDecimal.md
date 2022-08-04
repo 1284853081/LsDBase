@@ -6,7 +6,7 @@
 public decimal GetByte(int ind)
 ```
 ## 参数
-***ind***  int    
+`ind`  int    
 数据在一行中的索引，0为起始点   
 ## 返回
-***decimal***
+`decimal`
