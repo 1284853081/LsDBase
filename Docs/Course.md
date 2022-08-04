@@ -56,10 +56,10 @@ using LsDBase;
 using LsDBase.Core;
 using LsDBase.Subsidiary;
 
-DataBase dbase = LSDB.Login("test","123456");
-dbase.Insert("player",new KeyValues("666666","lsdb1","2022/8/4 15:54:00"));
-dbase.Insert("player",new KeyValues("777777","lsdb2","2020/12/30 8:30:26"));
-dbase.Insert("player",new KeyValues("888888","lsdb3","2021/3/15 12:11:49"));
+DataBase dbase = LSDB.Login("test", "123456");
+dbase.Insert("player", new KeyValues("id =666666", "name=lsdb1", "time=2022/8/4 15:54:00"));
+dbase.Insert("player", new KeyValues("id = 777777", "name=lsdb2", "time=2020/12/30 8:30:26"));
+dbase.Insert("player", new KeyValues("id =888888", "name=lsdb3", "time=2021/3/15 12:11:49"));
 ```
 运行上述代码即可完成向player表中插入三条数据
 ## 查看数据
