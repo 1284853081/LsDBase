@@ -6,7 +6,7 @@
 public static void DeleteDB(string dbname)
 ```
 ## 参数
-***dbname***  string    
+`dbname`  string    
 数据库名称   
 ## 返回
-**void**    
+`void`    
