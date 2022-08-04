@@ -16,7 +16,7 @@ public class KeyValues
 ## 构造函数
 |函数定义|描述|
 |:----|:----|
-|Fields(string kvp,param string/[] data)|用任意数量的条件创建对象|
+|Fields(string kvp,param string\[] data)|用任意数量的条件创建对象|
 
 **条件字符串需满足格式才能识别，格式("field=value")**
 ## 方法
