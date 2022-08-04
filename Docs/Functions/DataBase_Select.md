@@ -6,12 +6,12 @@
 public LsReader Select(string table, Fields fields,KeyValues condition)
 ```
 ## 参数
-***table***  string    
+`table`  string    
 数据表名称   
-***fields*** Fields   
+`fields` Fields   
 查询的字段   
-***condition*** KeyValues   
+`condition` KeyValues   
 条件   
 ## 返回
-***LsReader***
+`LsReader`
 数据库Reader对象
