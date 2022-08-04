@@ -1,7 +1,7 @@
 # LSDB.DeleteDB方法
 ## 定义
 命名空间:LsDBase    
-创建数据库对象   
+删除数据库对象   
 ```C#
 public static void DeleteDB(string dbname)
 ```
