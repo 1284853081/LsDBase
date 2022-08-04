@@ -24,8 +24,11 @@ DataBase dbase = LSDB.Login("test","123456");
 运行上述代码，如没有报错则成功   
 **可以尝试使用不是123456的密码登陆数据库**
 ## 获取test数据库中所有的表名
-**接着[登陆数据库](#登陆数据库)示例代码**，输入如下代码
 ```C#
+using LsDBase;
+using LsDBase.Core;
+
+DataBase dbase = LSDB.Login("test","123456");
 List<string> tables = dbase.GetTables();
 foreach(var name in tables)
   Console.WriteLine(name);
@@ -33,13 +36,16 @@ foreach(var name in tables)
 运行代码可以看到如下输出    
 > player
 ## 获取player表中的所有字段
-**删除[获取test数据库中所有的表名](#获取test数据库中所有的表名)示例代码**，输入如下代码
 ```C#
+using LsDBase;
+using LsDBase.Core;
+
+DataBase dbase = LSDB.Login("test","123456");
 List<string> fields = dbase.GetFields();
 for(int i = 0;i < fields.Count;i++)
   Console.WriteLine($"字段{i}的名字为{fields[i]}");
 ```
 运行代码可以看到如下输出    
 > 字段1的名字为id
-> 字段2的名字为name
-> 字段3的名字为time
+>> 字段2的名字为name
+>>> 字段3的名字为time
