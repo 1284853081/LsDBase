@@ -4,4 +4,3 @@ LsDBase为轻量本地结构化数据库插件，包含一系列数据操作，�
 ## LsDBase安装
 先通过VS(Visual Studio)建立一个控制台应用程序,输入下面的代码完成数据库的创建  
 <span style="color:#333333">```Using LsDBase``` </span>  
-<span style="color:#333333">```Using LsDBase.Core``` </span>
