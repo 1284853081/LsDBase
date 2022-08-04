@@ -14,7 +14,7 @@ public struct Fields
 |IsAll|表示当前对象是否是All对象|
 |this\[int]|自定义索引，获得字段名称|
 
-##构造函数
+## 构造函数
 |函数定义|描述|
 |:----|:----|
 |Fields(param string/[] args)|用任意数量的string生成对象|
