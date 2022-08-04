@@ -6,11 +6,11 @@
 public void CreateTable(string table, string[] fields, params DataSize[] sizes)
 ```
 ## 参数
-***table***  string    
+`table`  string    
 数据表名称   
-***fields*** string\[]   
+`fields` string\[]   
 字段   
-***sizes*** DataSize\[]   
+`sizes` DataSize\[]   
 字段的数据大小(字节) 
 ## 返回
-void
+`void`
