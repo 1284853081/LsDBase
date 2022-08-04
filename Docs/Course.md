@@ -6,6 +6,7 @@
 ```C#
 using LsDBase;
 using LsDBase.Core;
+using LsDBase.Subsidiary;
 
 DataBase dbase = LSDB.CreateDB("test","123456");
 dbase.CreateTable("player",new string[]{"id","name","time"},DataSize.Long,DataSize.String16,DataSize.String32);
@@ -53,6 +54,7 @@ for(int i = 0;i < fields.Count;i++)
 ```C#
 using LsDBase;
 using LsDBase.Core;
+using LsDBase.Subsidiary;
 
 DataBase dbase = LSDB.Login("test","123456");
 dbase.Insert("player",new KeyValues("666666","lsdb1","2022/8/4 15:54:00"));
@@ -65,6 +67,7 @@ dbase.Insert("player",new KeyValues("888888","lsdb3","2021/3/15 12:11:49"));
 ```C#
 using LsDBase;
 using LsDBase.Core;
+using LsDBase.Subsidiary;
 
 DataBase dbase = LSDB.Login("test","123456");
 LsReader ls = dbase.Select("player",Fields.All,KeyValues.Null);
@@ -91,6 +94,7 @@ while(ls.Read())
 ```C#
 using LsDBase;
 using LsDBase.Core;
+using LsDBase.Subsidiary;
 
 DataBase dbase = LSDB.Login("test","123456");
 dbase.Delete("player",new KeyValues("name=lsdb2"));
@@ -100,6 +104,7 @@ dbase.Delete("player",new KeyValues("name=lsdb2"));
 ```C#
 using LsDBase;
 using LsDBase.Core;
+using LsDBase.Subsidiary;
 
 DataBase dbase = LSDB.Login("test","123456");
 dbase.Update("player",new KeyValues("id=111111"),new KeyValues("name=lsdb3"));
