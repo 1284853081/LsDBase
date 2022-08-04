@@ -9,5 +9,5 @@ public static class LSDB
 ## 方法
 |方法定义|描述|
 |:----:|:----:|
-|[CreateDB(string dbname,string password)](/Docs/Functins/LSDB_CreateDB.md)|用指定名称和密码创建数据库|
+|[CreateDB(string dbname,string password)](/Docs/Functions/LSDB_CreateDB.md)|用指定名称和密码创建数据库|
 
