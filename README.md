@@ -3,6 +3,8 @@
 LsDBase为轻量本地结构化数据库插件，包含一系列数据操作，数据按照库-表-字段的方式存放，登陆数据库后即可完成对数据的增删查改。本项目以库的形式制作，将LsDBase的前置安装与使用聚合在一起，在使用时建议先通过一个前置程序完成LsDBase的安装在将dll引用至项目本地进行登陆，完成数据的增删查改。本项目基于.Net 6框架。
 ## 目录
 [1.安装](#LsDBase安装)
+[2.使用](#LsDBase使用)
+[3.文档](#API文档)
 ### LsDBase安装
 将LsDBase源代码下载到本地，进行编译生成dll  
 通过VS(Visual Studio)建立一个控制台应用程序  
@@ -31,4 +33,19 @@ DataBase dbase = LSDB.Login("dbname","password");
 //查指定表中所有值,返回LsReader对象
 LsReader reader = dbase.Select("tablename",Fields.All,KeyValues.Null);
 //其余操作查看文档
+```   
+### API文档
+[LSDB](#LSDB)   
+[DataBase](#DataBase)   
+[LsReader](#LsReader)   
+[DataSize](#DataSize)   
+[Fields](#Fields)   
+[KeyValues](#KeyValues)   
+#### LSDB
+```C#
+//创建数据库
+//dbname 数据库名
+//password 数据库密码
+//返回数据库DataBase对象
+public static DataBase CreateDB(string dbname,string password)
 ```
