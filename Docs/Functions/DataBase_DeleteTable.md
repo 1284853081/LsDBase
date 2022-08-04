@@ -6,7 +6,7 @@
 public void DeleteTable(string table)
 ```
 ## 参数
-***table***  string    
+`table`  string    
 数据表名称   
 ## 返回
-void
+`void`
