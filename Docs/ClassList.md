@@ -1,4 +1,4 @@
-#类[LSDB](/Docs/Class/LSDB.md)   
+[#LSDB](/Docs/Class/LSDB.md)   
 #[DataBase](/Docs/Class/DataBase.md)   
 #[LsReader](/Docs/Class/LsReader.md)   
 #[DataSize](/Docs/Class/DataSize.md)   
