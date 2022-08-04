@@ -13,7 +13,7 @@ public class KeyValues
 |IsNull|表示当前对象是否是Null对象|
 |Null|静态属性，获得Null对象，指示没有任何条件|
 
-##构造函数
+## 构造函数
 |函数定义|描述|
 |:----|:----|
 |Fields(string kvp,param string/[] data)|用任意数量的条件创建对象|
