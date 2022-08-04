@@ -12,7 +12,7 @@
             _data.Add(new KeyValue(arg[0], arg[1]));
             for(int i = 0; i < data.Length; i++)
             {
-                data[i] = data[i].Replace(" ", "");
+                data[i] = data[i].Trim();
                 string[] args = data[i].Split('=');
                 _data.Add(new KeyValue(args[0], args[1]));
             }

@@ -25,7 +25,7 @@ namespace LsDBase.Subsidiary
         public static DataSize String512 { get => new(516); }
         public static DataSize String1024 { get => new(1028); }
         public static DataSize String2048 { get => new(2052); }
-        public static DataSize String4096 { get => new(5000); }
+        public static DataSize String4096 { get => new(4100); }
         public static DataSize String8192 { get => new(8196); }
     }
 }
