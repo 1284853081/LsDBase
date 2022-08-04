@@ -10,7 +10,7 @@ public LsReader Select(string table, Fields fields,KeyValues condition)
 数据表名称   
 ***fields*** Fields   
 查询的字段   
-***kvps*** KeyValues   
+***condition*** KeyValues   
 条件   
 ## 返回
 ***LsReader***
