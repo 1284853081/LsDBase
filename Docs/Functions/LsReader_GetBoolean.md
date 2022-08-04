@@ -6,7 +6,7 @@
 public bool GetBoolean(int ind)
 ```
 ## 参数
-`int`  int    
+`ind`  int    
 数据在一行中的索引，0为起始点   
 ## 返回
 `bool`
