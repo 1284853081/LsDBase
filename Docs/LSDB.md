@@ -7,5 +7,6 @@
 public static class LSDB
 ```
 ## 方法
+|方法定义|描述|
 |:---------------------------------------:|:------------------------|
 |[CreateDB(string dbname,string password)]|用指定名称和密码创建数据库|
