@@ -74,7 +74,7 @@ LsReader ls = dbase.Select("player",Fields.All,KeyValues.Null);
 int i = 1;
 while(ls.Read())
 {
-  Console.WriteLine($"第{i}条数据的id为{ls.GetLong(0)}");
+  Console.WriteLine($"第{i}条数据的id为{ls.Get(0)}");
   Console.WriteLine($"第{i}条数据的name为{ls.GetString(1)}");
   Console.WriteLine($"第{i}条数据的time为{ls.GetDateTime(2)}");
   i++;
