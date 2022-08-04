@@ -6,9 +6,9 @@
 public void Insert(string table, KeyValues kvps)
 ```
 ## 参数
-***table***  string    
+`table`  string    
 数据表名称   
-***kvps*** KeyValues   
+`kvps` KeyValues   
 插入的数据   
 ## 返回
-void
+`void`
