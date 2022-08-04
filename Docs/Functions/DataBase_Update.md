@@ -6,11 +6,11 @@
 public void Update(string table, KeyValues kvps,KeyValues condition)
 ```
 ## 参数
-***table***  string    
+`table`  string    
 数据表名称   
-***kvps*** KeyValues   
+`kvps` KeyValues   
 插入的数据   
-***condition*** KeyValues   
+`condition` KeyValues   
 条件   
 ## 返回
-void
+`void`
