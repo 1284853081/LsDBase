@@ -6,9 +6,9 @@
 public void Delete(string table, KeyValues condition)
 ```
 ## 参数
-***table***  string    
+`table`  string    
 数据表名称   
-***condition*** KeyValues   
+`condition` KeyValues   
 条件   
 ## 返回
-void
+`void`
