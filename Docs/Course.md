@@ -42,7 +42,7 @@ using LsDBase;
 using LsDBase.Core;
 
 DataBase dbase = LSDB.Login("test","123456");
-List<string> fields = dbase.GetFields();
+List<string> fields = dbase.GetFields("player");
 for(int i = 0;i < fields.Count;i++)
   Console.WriteLine($"字段{i}的名字为{fields[i]}");
 ```
