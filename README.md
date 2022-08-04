@@ -32,7 +32,6 @@ using LsDBase;
 using LsDBase.Core;
 
 //dbname为你创建的数据库名，password为数据库密码
-//可以以任意的密码登陆到数据库，但密码不对会导致数据读取错误
 DataBase dbase = LSDB.Login("dbname","password");
 //查指定表中所有值,返回LsReader对象
 LsReader reader = dbase.Select("tablename",Fields.All,KeyValues.Null);
